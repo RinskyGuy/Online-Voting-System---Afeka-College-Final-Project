@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block body %}
+<h1>
+    Secure<span></span>OnlineVoting
+</h1>
+{% if vote is not None%}
+    <h2 class="title">We received your vote:</h2>
+    <h2 class="mid-title">{{vote}}</h2>
+    <h2 class="info">You can confirm your vote by matching to your voter-note</h2>
+{% else %}
+    <h2 class="title">Your vote is being processed...</h2>
+    <h2 class="info">In a few moments you will be able to confirm your vote.</h2>
+{% endif %}
+{% endblock %}

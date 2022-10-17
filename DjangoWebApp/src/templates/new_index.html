@@ -1,0 +1,6 @@
+{% if electionCreated and candidatesCreated and votersCreated %}
+    {% include 'admin/app_index.html' %}
+{% else %}
+    {% include 'create_election.html' %}
+{% endif %}
+

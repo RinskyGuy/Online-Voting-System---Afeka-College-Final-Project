@@ -1,0 +1,12 @@
+{% extends "my_base_admin.html" %}
+{% load i18n static %}
+
+{% block content_title %}<h1>Insert time for elections</h1>{% endblock %}
+{% block content_data%}
+    <div class="submit-row">
+        <form method = "post" enctype="multipart/form-data">
+            {% csrf_token %}{{ form.as_p }}
+            <input type="submit" value="{% translate 'Submit' %}">
+        </form>
+    </div>
+{% endblock %}

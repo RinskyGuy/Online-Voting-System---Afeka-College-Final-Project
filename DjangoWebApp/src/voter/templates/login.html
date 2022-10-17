@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block body %}
+<h1>
+    Secure<span></span>OnlineVoting
+</h1>
+{% if hasElection %}
+<form method = "post">
+    {% csrf_token %}
+    <h2 class="title">Vote Now</h2>
+</br> 
+    <h2 class="info">Unique Code *</h2>
+    {{ form.as_p }}
+    {% if err %}
+        <p id="err_message" class="err-msg">Unique code not found.</p>
+    {% endif %}
+
+    <button class="submitbutton" type="submit">Submit</button>
+</form>
+{% else %}
+<h2 class="title">No current election available...</h2>
+{% endif %}
+{% endblock %}

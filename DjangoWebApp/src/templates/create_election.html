@@ -1,0 +1,17 @@
+{% extends "my_base_admin.html" %}
+{% load i18n static %}
+
+{% block content_title %}<h1>Upload election data</h1>{% endblock %}
+{% block content_data%}
+    <div class="submit-row">
+    {% if electionCreated %}
+        {% if candidatesCreated %}
+        <input type="submit" value="{% translate 'Add Voters data' %}" onclick="location.href = 'create_election/upload_voters_data';">
+        {% else %}
+            <input type="submit" value="{% translate 'Add candidates data' %}" onclick="location.href = 'create_election/upload_candidates';">
+        {% endif %}
+    {% else %}
+    <input type="submit" value="{% translate 'Add elections time' %}" onclick="location.href = 'create_election/elections_time';">
+    {% endif %}
+    </div>
+{% endblock %}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        {% load static %}
+
+        <meta charset='utf-8'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        <title>{% block title %}Secure Voting System{% endblock %}</title>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cuprum">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Actor">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lalezar">
+        <link rel="stylesheet" type = "text/css" href="{% static 'css\home.css' %}"/>
+    </head>
+    <body>
+    <div class="navdiv">
+        <a class="head-title" href='/'>
+            <img class="logo" src="{% static 'images\logo.png' %}"/>
+            Secure OnlineVoting
+        </a>
+    </div>
+        <div class="bodydiv">
+        {% block body %}
+        {% endblock %}
+        </div>
+    </body>
+
+    <div class="footer">
+    </div>
+
+</html>

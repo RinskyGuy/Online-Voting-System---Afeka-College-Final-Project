@@ -1,0 +1,24 @@
+{% extends "my_base_admin.html" %}
+{% load i18n static %}
+
+{% block content_title %}<h1>Upload voters data</h1>{% endblock %}
+{% block content_subtitle %}<h2>Upload pickle csv file with voters data</h2>{% endblock %}
+{% block content_data%}
+    <div class="submit-row">
+        <form method = "post" enctype="multipart/form-data">
+            {% csrf_token %}{{ form.as_p }}
+            <p>file must contain the following columns: {{ format_msg }}.</p>
+            {% for doc in docs %}
+                <p> {{ doc.name }} value must be a dictionary with following labels: {{ doc.columns }}.</p>
+            {% endfor %}
+
+            <h2>Upload documents images (ID is required!)</h2>
+            {% for doc in docs %}
+            <h3>Upload {{ doc.name }} images</h3>
+                <input name={{ doc.images_input_name }} type="file" multiple></input>
+                <p>must be of JPG/PNG format and name matching with id number.</p>
+            {% endfor %}
+            <input type="submit" value="{% translate 'Submit' %}">
+        </form>
+    </div>
+{% endblock %}

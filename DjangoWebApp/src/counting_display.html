@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<h1>This page is for the conference purposes only</h1>
+<div id="countB">
+</div>
+
+<div id="countA">
+</div>
+
+<div id="countAXORcountB">
+</div>
+
+<body>
+    <script>
+        fetch('countA.txt')
+            .then(response => response.text())
+            .then(dataA => {
+                // Do something with your data
+                document.getElementById("countA").innerHTML = "<h3>CountA</h3><pre>" +
+                    dataA + "</pre>";
+                fetch('countB.txt')
+                    .then(response => response.text())
+                    .then(dataB => {
+                        document.getElementById("countB").innerHTML = "<h3>CountB</h3><pre>" +
+                            dataB + "</pre>";
+                        res = ""
+                        tmp = ""
+                            // Do something with your data
+                        dataAsplit = dataA.split("\n")
+                        dataBsplit = dataB.split("\n")
+                        for (let i = 0; i < dataAsplit.length; i++) {
+                            for (let j = 0; j < dataAsplit[0].length - 1; j++) {
+                                //If the Character matches
+                                if (dataAsplit[i][j] == dataBsplit[i][j]) {
+                                    tmp += "0"
+                                } else {
+                                    tmp += "1"
+                                }
+                            }
+                            res += tmp + " <-> " + parseInt(tmp, 2)
+                            res += "\n"
+                            tmp = ""
+                        }
+                        document.getElementById("countAXORcountB").innerHTML = "<h3>XOR</h3><pre>" +
+                            res + "</pre>";
+                    });
+            });
+    </script>
+</body>
+
+</html>

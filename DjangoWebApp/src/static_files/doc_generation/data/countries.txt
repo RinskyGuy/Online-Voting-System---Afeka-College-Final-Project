@@ -1,0 +1,195 @@
+UGANDA,אוגנדה
+UZBEKISTAN,אוזבקיסטן
+AUSTRIA,אוסטריה
+AUSTRALIA,אוסטרליה
+UKRAINE,אוקראינה
+URUGUAY,אורוגוואי
+AZERBAIJAN,אזרבייג'ן
+UNITED ARAB EMIRATES,איחוד האמירויות הערביות
+ITALY,איטליה
+BAHAMAS,איי בהאמה
+MARSHALL ISLANDS,איי מרשל
+SEYCHELLES,איי סיישל
+COMOROS,איי קומורו
+COOK ISLANDS,איי קוק
+SOLOMON ISLANDS,איי שלמה
+INDONESIA,אינדונזיה
+ICELAND,איסלנד
+IRAN,איראן
+IRELAND,אירלנד
+EL SALVADOR,אל סלוודור
+ALBANIA,אלבניה
+ALGERIA,אלג'יריה
+ANGOLA,אנגולה
+ANDORRA,אנדורה
+ANTIGUA AND BARBUDA,אנטיגואה וברבודה
+ESWATINI,אסוואטיני
+ESTONIA,אסטוניה
+AFGHANISTAN,אפגניסטן
+ECUADOR,אקוודור
+ARGENTINA,ארגנטינה
+ERITREA,אריתריאה
+ARMENIA,ארמניה
+UNITED STATES,ארצות הברית
+ETHIOPIA,אתיופיה
+BHUTAN,בהוטן
+BOTSWANA,בוטסואנה
+BULGARIA,בולגריה
+BOLIVIA,בוליביה
+BOSNIA AND HERZEGOVINA,בוסניה והרצגובינה
+BURUNDI,בורונדי
+BURKINA FASO,בורקינה פאסו
+BAHRAIN,בחריין
+BELARUS,בלארוס
+BELGIUM,בלגיה
+BELIZE,בליז
+BANGLADESH,בנגלדש
+BENIN,בנין
+BARBADOS,ברבדוס
+BRUNEI,ברוניי
+BRAZIL,ברזיל
+DJIBOUTI,ג'יבוטי
+JAMAICA,ג'מייקה
+GEORGIA,גאורגיה
+GHANA,גאנה
+GABON,גבון
+GUATEMALA,גואטמלה
+GUYANA,גיאנה
+GUINEA,גינאה
+GUINEA-BISSAU,גינאה ביסאו
+EQUATORIAL GUINEA,גינאה המשוונית
+GAMBIA,גמביה
+GERMANY,גרמניה
+GRENADA,גרנדה
+DOMINICA,דומיניקה
+DENMARK,דנמרק
+SOUTH AFRICA,דרום אפריקה
+SOUTH SUDAN,דרום סודן
+HAITI,האיטי
+MALDIVES,האיים המלדיביים
+INDIA,הודו
+NETHERLANDS,הולנד
+HUNGARY,הונגריה
+HONDURAS,הונדורס
+UNITED KINGDOM,הממלכה המאוחדת
+PHILIPPINES,הפיליפינים
+DOMINICAN REPUBLIC,הרפובליקה הדומיניקנית
+CENTRAL AFRICAN REPUBLIC,הרפובליקה המרכז אפריקנית
+VIETNAM,וייטנאם
+VANUATU,ונואטו
+VENEZUELA,ונצואלה
+ZIMBABWE,זימבבואה
+ZAMBIA,זמביה
+COTE D'IVOIRE,חוף השנהב
+TAJIKISTAN,טג'יקיסטן
+TUVALU,טובאלו
+TOGO,טוגו
+TONGA,טונגה
+TURKEY,טורקיה
+TURKMENISTAN,טורקמניסטן
+TANZANIA,טנזניה
+TRINIDAD AND TOBAGO,טרינידד וטובגו
+GREECE,יוון
+JAPAN,יפן
+JORDAN,ירדן
+ISRAEL,ישראל
+KUWAIT,כווית
+CABO VERDE,כף ורדה
+LAOS,לאוס
+LEBANON,לבנון
+LIBYA,לוב
+LUXEMBOURG,לוקסמבורג
+LATVIA,לטביה
+LIBERIA,ליבריה
+LITHUANIA,ליטא
+LIECHTENSTEIN,ליכטנשטיין
+LESOTHO,לסוטו
+MAURITANIA,מאוריטניה
+MAURITIUS,מאוריציוס
+MALI,מאלי
+MADAGASCAR,מדגסקר
+MOZAMBIQUE,מוזמביק
+MOLDOVA,מולדובה
+MONGOLIA,מונגוליה
+MONTENEGRO,מונטנגרו
+MONACO,מונקו
+TIMOR-LESTE,מזרח טימור
+MYANMAR,מיאנמר
+MICRONESIA,מיקרונזיה
+MALAWI,מלאווי
+MALAYSIA,מלזיה
+MALTA,מלטה
+EGYPT,מצרים
+NORTH MACEDONIA,מקדוניה הצפונית
+MEXICO,מקסיקו
+MOROCCO,מרוקו
+NAURU,נאורו
+NORWAY,נורווגיה
+NIGERIA,ניגריה
+NEW ZEALAND,ניו זילנד
+NIUE,ניואה
+NIGER,ניז'ר
+NICARAGUA,ניקרגואה
+NAMIBIA,נמיביה
+NEPAL,נפאל
+SAO TOME & PRINCIPE,סאו טומה ופרינסיפה
+SUDAN,סודאן
+SOMALIA,סומליה
+SYRIA,סוריה
+SURINAME,סורינאם
+SIERRA LEONE,סיירה לאון
+CHINA,סין
+SINGAPORE,סינגפור
+SLOVENIA,סלובניה
+SLOVAKIA,סלובקיה
+SAMOA,סמואה
+SAN MARINO,סן מרינו
+SENEGAL,סנגל
+ST. VINCENT & GRENADINES,סנט וינסנט והגרדינים
+SAINT LUCIA,סנט לוסיה
+SAINT KITTS & NEVIS,סנט קיטס ונוויס
+SPAIN,ספרד
+SERBIA,סרביה
+SRI LANKA,סרי לנקה
+OMAN,עומאן
+IRAQ,עיראק
+SAUDI ARABIA,ערב הסעודית
+POLAND,פולין
+PORTUGAL,פורטוגל
+FIJI,פיג'י
+FINLAND,פינלנד
+PALAU,פלאו
+PANAMA,פנמה
+PAPUA NEW GUINEA,פפואה גינאה החדשה
+PAKISTAN,פקיסטן
+PARAGUAY,פרגוואי
+PERU,פרו
+CHAD,צ'אד
+CHILE,צ'ילה
+CZECH REPUBLIC,צ'כיה
+FRANCE,צרפת
+CUBA,קובה
+COLOMBIA,קולומביה
+CONGO,קונגו
+REPUBLIC OF THE CONGO,קונגו
+COSTA RICA,קוסטה ריקה
+SOUTH KOREA,קוריאה הדרומית
+NORTH KOREA,קוריאה הצפונית
+KAZAKHSTAN,קזחסטן
+QATAR,קטר
+CAMBODIA,קמבודיה
+CAMEROON,קמרון
+CANADA,קנדה
+KENYA,קניה
+CYPRUS,קפריסין
+CROATIA,קרואטיה
+KIRIBATI,קריבטי
+KYRGYZSTAN,קריגיזסטן
+RWANDA,רואנדה
+ROMANIA,רומניה
+RUSSIA,רוסיה
+SWEDEN,שוודיה
+SWITZERLAND,שוויץ
+THAILAND,תאילנד
+TUNISIA,תוניסיה
+YEMEN,תימן

@@ -1,0 +1,19 @@
+{% load static %}
+<head>
+    <script src={% static 'js\show_hide_element.js' %}></script>
+</head>
+<body onload="hide(document.getElementById('process_msg'))">
+    <form method = "post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <h2 class="title">Upload document scan</h2>
+    </br> 
+        <h2 class="info">A valid israeli ID, passport or driving-license</h2>
+        {{ form.as_p }}
+        <p class="msg">Accepts JPG and PNG image formats</p>
+        <p class="msg" id="process_msg">Processing...</p>
+        {% if show_disapproved %}
+        <p id="err_message" class="err-msg">{{ msg }}</p>
+        {% endif %}
+        <button class="submitbutton" type="submit" onclick="show(document.getElementById('process_msg'))">Upload</button>
+    </form>
+</body>

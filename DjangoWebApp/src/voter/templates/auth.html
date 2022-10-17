@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block body %}
+
+{% if type == 'doc_scan' %}
+{% include 'doc_scan.html' %}
+
+{% elif type == 'face_recognition' %}
+{% include 'face_recognition.html' %}
+
+{% else %}
+{% include 'login.html' %}
+
+{% endif %}
+{% endblock %}

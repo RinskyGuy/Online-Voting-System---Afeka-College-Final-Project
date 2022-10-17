@@ -1,0 +1,31 @@
+{% load static %}
+<head>
+    <link rel="stylesheet" href="{% static 'css\modal.css' %}"/>
+    <script defer src={% static 'models\face-api\dist\face-api.min.js' %}></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js" id='tf'></script>
+</head>
+
+<body onload="onLoad({{face_vectors}})">
+        <h2 class="title">Face Recognition</h2>
+        <h2 id="preloading" class="info">Page loading, please wait...</h2>
+        <h2 id="postloading" class="info" hidden>Please face forward to your webcam device</h2>
+        <video id="video" width="224" height="224" autoplay muted></video>
+        <canvas width="224" height="224" id='cropped' hidden></canvas>
+        <p id="detection_err" class="err-msg" hidden>Please make sure exactly one person present in frame to continue...</p>
+        <p id="access_err" class="err-msg" hidden>Please make sure to allow webcam access to continue...</p>
+  
+    <form method="POST">
+        {% csrf_token %}
+        <!-- The Modal -->
+        <div class="modal" id="suceedmodal" hidden>
+            <div class="modal-content">
+                <!-- Modal content -->
+                <h2 class="mid-title"> Verification succeeded! </h2>
+                <p class="msg"> please press to continue... </p>
+                <input class="submitbutton" type="submit" value="continue" />          
+            </div>
+        </div>
+    </form>
+    <script src={% static 'js\face_recognition.js' %}></script>
+</body>
+

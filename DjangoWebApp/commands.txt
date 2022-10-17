@@ -1,0 +1,46 @@
+1.  download python3.X executable - https://www.python.org/downloads/windows/
+
+2.  create root directory
+
+3.  open new project in root
+
+4.  create virtual enviroment:
+    python_executable_path = 'C:\Users\User\AppData\Local\Programs\Python\Python39\python.exe'
+    (in powershell) {python_executable_path} -m venv .
+    (install virtualenv if needed)
+
+5. activate virtual enviroment:
+    .\Scripts\activate
+
+6.  save all requirements:
+    pip freeze > requirements.txt
+
+7.  install all requirements:
+    pip install -r requirements.txt
+
+8.  create source directory:
+    dir_name = src
+    mkdir <dir_name>
+
+9.  go to directory:
+    dir_name = src
+    cd <dir_name>
+
+10.  create new django project:
+    project_name = secure_voting_system
+    python -m django startproject <project_name> .
+
+11. create admin:
+    python manage.py createsuperuser 
+
+12. create django app:
+    python manage.py startapp <app_name>
+
+13. sync settings:
+    python manage.py makemigrations
+    python manage.py migrate
+
+14. run server:
+    python manage.py runserver
+
+** To check all django commands type: django-admin
